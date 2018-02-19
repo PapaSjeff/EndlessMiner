@@ -1,0 +1,67 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1194347942926752}
+  m_IsPrefabParent: 1
+--- !u!1 &1194347942926752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4101373782902818}
+  - component: {fileID: 114825811120557756}
+  m_Layer: 0
+  m_Name: RoomSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4101373782902818
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194347942926752}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114825811120557756
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1194347942926752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 49db37ef88b339f42be617959a899a79, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  roomsStraight:
+  - {fileID: 1342833291540652, guid: 8dc5d03fc004cf74a8cfbcd3e00dae2f, type: 2}
+  - {fileID: 1826055772152274, guid: 98b4d3e1850777946af4959ae4e73910, type: 2}
+  roomsUp:
+  - {fileID: 1330149898277504, guid: eb25a68ecb1793d498a4eb4f805bb321, type: 2}
+  roomsDown:
+  - {fileID: 1270732643246248, guid: 2ff9c37caed3c7943aac37036909f542, type: 2}
+  specialUpRooms:
+  - {fileID: 1127440776837634, guid: c40e6e3bb2c42e64da82b7bf6c764ff1, type: 2}
+  specialDownRooms:
+  - {fileID: 1127440776837634, guid: 0c69e5c3916f53c42924f0c4e3509285, type: 2}
+  roomUpPerc: 30
+  roomDownPerc: 70
+  roomAmount: 25

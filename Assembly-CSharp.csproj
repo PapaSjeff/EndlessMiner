@@ -9,7 +9,7 @@
     <ProductVersion>10.0.20506</ProductVersion>
     <SchemaVersion>2.0</SchemaVersion>
     <RootNamespace></RootNamespace>
-    <ProjectGuid>{6E9788B4-0867-5D2A-E7A4-823689B4507C}</ProjectGuid>
+    <ProjectGuid>{9E0DD3BA-5C0C-03C8-4354-9DBDAFB00A43}</ProjectGuid>
     <OutputType>Library</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <AssemblyName>Assembly-CSharp</AssemblyName>
@@ -51,10 +51,15 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\AutoMove.cs" />
      <Compile Include="Assets\CameraController.cs" />
+     <Compile Include="Assets\CameraFollow.cs" />
      <Compile Include="Assets\Entities\Player\Controller2D.cs" />
      <Compile Include="Assets\Entities\Player\PlayerScript.cs" />
+     <Compile Include="Assets\PhysicsObject.cs" />
      <Compile Include="Assets\PlayerController.cs" />
+     <Compile Include="Assets\Room.cs" />
+     <Compile Include="Assets\RoomSpawner.cs" />
  <Reference Include="UnityEngine.UI">
  <HintPath>D:/Unity - 2017.2.0f3/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>
@@ -114,6 +119,12 @@
  </Reference>
  <Reference Include="UnityEditor.Graphs">
  <HintPath>D:/Unity - 2017.2.0f3/Editor/Data/Managed/UnityEditor.Graphs.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.Android.Extensions">
+ <HintPath>D:/Unity - 2017.2.0f3/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll</HintPath>
+ </Reference>
+ <Reference Include="UnityEditor.iOS.Extensions">
+ <HintPath>D:/Unity - 2017.2.0f3/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.WindowsStandalone.Extensions">
  <HintPath>D:/Unity - 2017.2.0f3/Editor/Data/PlaybackEngines/windowsstandalonesupport/UnityEditor.WindowsStandalone.Extensions.dll</HintPath>
